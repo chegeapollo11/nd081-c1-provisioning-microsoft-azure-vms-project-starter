@@ -20,6 +20,7 @@
 - ***Workflow:*** Management and deployment is pretty straight forward as CI/CD solutions e.g. **Github Actions, Azure Devops Pipelines, Bitbucket Pipelines** and a few others are supported out of the box. Merging your changes to the main branch therefore automatically triggers a CI/CD pipeline that builds and deploys your latest code to azure app service while azure app service takes care of restarting your application to pick the latest changes.
 
 **Option Selected: App Service**
+The application can be accessed via this link: [Udacity Article CMS App](https://apollo-udacity-articlecms-webapp.azurewebsites.net/)
 
 **Justification:** The main use case here was deploying a python flask application to azure and implement data storage, security and logging mainly for learning purposes. Azure app service offers a solution that fully satisfies this use case for free when using the free pricing tier hence it is cost effective.
 
